@@ -1,6 +1,6 @@
-<h1>Sign Up</h1>
+<h1>Reset Password</h1>
 
-<%= form_with model: @user, url: registration_path do |form| %>
+<%= form_with model: @user, url: password_reset_path(token: params[:token]) do |form| %>
   <% if form.object.errors.any? %>
     <ul>
     <% form.object.errors.full_messages.each do |message| %>
@@ -9,11 +9,6 @@
     </ul>
   <% end %>
 
-  <div>
-    <%= form.label :email %>
-    <%= form.email_field :email %>
-  </div>
-  
   <div>
     <%= form.label :password %>
     <%= form.password_field :password %>
@@ -25,6 +20,6 @@
   </div>
 
   <div>
-    <%= form.submit "Sign Up" %>
+    <%= form.submit "Reset Your Password" %>
   </div>
 <% end %>
