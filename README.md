@@ -7,4 +7,8 @@ The only changes from the video are:
 - minimum password length (12 characters)
 - a requirement of 1 uppercase, 1 lowercase, 1 digit, and 1 special character
 
-[https://www.youtube.com/watch?v=Hb9WtQf9K60](https://www.youtube.com/watch?v=Hb9WtQf9K60)
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=Hb9WtQf9K60" 
+frameborder="0" 
+allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
